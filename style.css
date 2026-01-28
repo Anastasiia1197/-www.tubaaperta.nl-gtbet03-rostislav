@@ -18,19 +18,19 @@
 }
 
 :root {
-	--background-color: linear-gradient(145deg, #020617 0%, #0b102f 45%, #2a0f3d 100%);
-	--header: linear-gradient(90deg, #7a123c 0%, #c026d3 45%, #22d3ee 100%);
-	--txt: #f8fafc;
-	--btn: linear-gradient(135deg, #e11d48, #be123c);
+	--background-color: linear-gradient(150deg, #19203d 0%, #2e1f57 45%, #3a1e66 100%);
+	--header: linear-gradient(90deg, #2a1a2f 0%, #46214d 50%, #592264 100%);
+	--txt: #f6f3f7;
+	--p-txt: #d9c6dd;
+	--alt-txt: #1a1424;
+	--btn: linear-gradient(0deg, #972966, #ee85ba);
+	--btn-hover: #601e66;
+	--btn-shadow: rgba(115, 58, 161, 0.45);
+	--container: linear-gradient(180deg, #15121c, #1e1828);
+	--link: #be7e9e;
+	--vitrina: linear-gradient(135deg, #1e1828, #2d1f3a);
+	--shadow: rgba(0, 0, 0, 0.45);
 	--border: 18px;
-	--container: linear-gradient(180deg, #0e1f6b, #0f273d);
-	--link: #f967ab;
-	--p-txt: #f1d0e3;
-	--alt-txt: #0b102f;
-	--vitrina: linear-gradient(135deg, #1e293b, #4c1d95);
-	--shadow: rgba(225, 29, 72, 0.25);
-	--btn-shadow: #7a123c;
-	--btn-hover: #be123c;
 }
 
 * {
@@ -202,7 +202,7 @@ header {
 	top: 0;
 	z-index: 100;
 	box-shadow: 0 1px 8px var(--txt);
-	padding: 10px;
+	padding: 3px;
 	overflow: hidden;
 }
 
@@ -263,7 +263,7 @@ header {
 .container,
 .container-long,
 .casino-vitrina {
-	box-shadow: 2px 2px 2px var(--p-txt);
+	box-shadow: 0 0 12px var(--btn-hover);
 }
 
 .flex-container {
@@ -484,7 +484,7 @@ footer {
 
 footer a {
 	align-self: self-start;
-	color: var(--btn-shadow);
+	color: var(--link);
 }
 
 .footer-hr {
